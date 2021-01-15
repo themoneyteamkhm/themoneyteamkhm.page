@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js not-logged-in ">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Log in &mdash; Instagram</title>
+
+        
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#ffffff">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <link rel="manifest" href="/data/manifest.json">
+
+        
+        
+        
+
+        <script type="text/javascript">
+        (function() {
+  var docElement = document.documentElement;
+  var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+  var className = docElement.className;
+  docElement.className = className.replace(classRE, '$1js$2');
+})();
+</script>
+        <script type="text/javascript">
+(function() {
+  if ('PerformanceObserver' in window && 'PerformancePaintTiming' in window) {
+    window.__bufferedPerformance = [];
+    var ob = new PerformanceObserver(function(e) {
+      window.__bufferedPerformance.push.apply(window.__bufferedPerformance,e.getEntries());
+    });
+    ob.observe({entryTypes:['paint']});
+  }
+
+  window.__bufferedErrors = [];
+  window.onerror = function(message, url, line, column, error) {
+    window.__bufferedErrors.push({
+      message: message,
+      url: url,
+      line: line,
+      column: column,
+      error: error
+    });
+    return false;
+  };
+  window.__initialData = {
+    pending: true,
+    waiting: []
+  };
+  function asyncFetchSharedData(extra) {
+    var sharedDataReq = new XMLHttpRequest();
+    sharedDataReq.onreadystatechange = function() {
+          if (sharedDataReq.readyState === 4) {
+            if(sharedDataReq.status === 200){
+              var sharedData = JSON.parse(sharedDataReq.responseText);
+              window.__initialDataLoaded(sharedData, extra);
+            }
+          }
+        }
+    sharedDataReq.open('GET', '/data/shared_data/', true);
+    sharedDataReq.send(null);
+  }
+  function notifyLoaded(item, data) {
+    item.pending = false;
+    item.data = data;
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].resolve(item.data);
+    }
+    item.waiting = [];
+  }
+  function notifyError(item, msg) {
+    item.pending = false;
+    item.error = new Error(msg);
+    for (var i = 0;i < item.waiting.length; ++i) {
+      item.waiting[i].reject(item.error);
+    }
+    item.waiting = [];
+  }
+  window.__initialDataLoaded = function(initialData, extraData) {
+    if (extraData) {
+      for (var key in extraData) {
+        initialData[key] = extraData[key];
+      }
+    }
+    notifyLoaded(window.__initialData, initialData);
+  };
+  window.__initialDataError = function(msg) {
+    notifyError(window.__initialData, msg);
+  };
+  window.__additionalData = {};
+  window.__pendingAdditionalData = function(paths) {
+    for (var i = 0;i < paths.length; ++i) {
+      window.__additionalData[paths[i]] = {
+        pending: true,
+        waiting: []
+      };
+    }
+  };
+  window.__additionalDataLoaded = function(path, data) {
+    if (path in window.__additionalData) {
+      notifyLoaded(window.__additionalData[path], data);
+    } else {
+      console.error('Unexpected additional data loaded "' + path + '"');
+    }
+  };
+  window.__additionalDataError = function(path, msg) {
+    if (path in window.__additionalData) {
+      notifyError(window.__additionalData[path], msg);
+    } else {
+      console.error('Unexpected additional data encountered an error "' + path + '": ' + msg);
+    }
+  };
+  
+})();
+</script><script type="text/javascript">
+
+/*
+ Copyright 2018 Google Inc. All Rights Reserved.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+(function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,
+a):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();
+</script>
+                <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">
+                <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">
+                <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">
+                <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">
+                <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">
+                
+                    <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+                
+            
+            
+                    <link rel="mask-icon" href="/static/images/ico/favicon.svg/fc72dd4bfde8.svg" color="#262626">
+                  
+                  <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
+                
+            
+            
+    <link rel="stylesheet" type="text/css" href="/static/styles/distillery/dialog-main.css/4517178772b4.css"></link>
+    <!--[if lt IE 9]>
+    <style>
+        .dialog-outer {
+            min-height: 0;
+        }
+    </style>
+    <![endif]-->
+
+            </head>
+    <body class="p-dialog oauth-login" style="">
+        
+            <div class="root -cx-PRIVATE-Page__root -cx-PRIVATE-Page__root__">
+                
+<section class="dialog-outer">
+    <div class="dialog">
+        <header>
+            <h1 class="logo">Instagram</h1>
+        </header>
+        <div class="dialog-main">
+            
+            <p class="alert-red">Please check the security code and try again.</p>
+            
+            
+            <form method="POST" id="login-form" class="adjacent" action="">
+                <input type="hidden" name="csrfmiddlewaretoken" value="CSrn7ZtnxQDjCApZHJJdkK7znRP2u9cQ"/>
+                <p>
+                    <label autofocus for="id_security_code">Security Code:</label>
+                    <input type="text" pattern="[0-9]*" name="security_code" maxlength="8" autocapitalize="off" autocorrect="off" type="text" id="id_security_code">
+                </p>
+                <p class="form-actions">
+                    <input type="submit" class="button-green" value="Log in" />
+                </p>
+            </form>
+        </div>
+    </div>
+</section>
+
+                <div id="reactModalMountPoint"></div>
+            </div> <!-- .root -->
+        
+        
+
+
+        
+            
+
+            
+        
+
+        <script type="text/javascript">
+(function(){
+  function normalizeError(err) {
+    var errorInfo = err.error || {};
+    var getConfigProp = function(propName, defaultValueIfNotTruthy) {
+      var propValue = window._sharedData && window._sharedData[propName];
+      return propValue ? propValue : defaultValueIfNotTruthy;
+    };
+    var windowUrl = window.location.href;
+    var errUrl = err.url || windowUrl;
+    return {
+      line: err.line || errorInfo.message || 0,
+      column: err.column || 0,
+      name: 'InitError',
+      message: err.message || errorInfo.message || '',
+      script: errorInfo.script || '',
+      stack: errorInfo.stackTrace || errorInfo.stack || '',
+      timestamp: Date.now(),
+      ref: windowUrl.indexOf('direct') >= 0 ? 'direct' : windowUrl,
+      deployment_stage: getConfigProp('deployment_stage', ''),
+      frontend_env: getConfigProp('frontend_env', 'prod'),
+      rollout_hash: getConfigProp('rollout_hash', ''),
+      is_prerelease: window.__PRERELEASE__ || false,
+      bundle_variant: getConfigProp('bundle_variant', null),
+      request_url: errUrl.indexOf('direct') >= 0 ? 'direct' : errUrl,
+      response_status_code: errorInfo.statusCode || 0
+    }
+  }
+  window.addEventListener('load', function(){
+    if (window.__bufferedErrors && window.__bufferedErrors.length) {
+      if (window.caches && window.caches.keys && window.caches.delete) {
+        window.caches.keys().then(function(keys) {
+          keys.forEach(function(key) {
+            window.caches.delete(key)
+          })
+        })
+      }
+      window.__bufferedErrors.map(function(error) {
+        return normalizeError(error)
+      }).forEach(function(normalizedError) {
+        var request = new XMLHttpRequest();
+        request.open('POST', '/client_error/', true);
+        request.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+        request.send(JSON.stringify(normalizedError));
+      })
+    }
+  })
+}());
+</script>
+    </body>
+</html>
